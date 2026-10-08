@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — APK Qalqon</title>
+  <meta name="description" content="Privacy policy for APK Qalqon, an on-device Android security app that blocks sideloaded installs and checks installed apps.">
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #1c1917;
+      --muted: #57534e;
+      --line: #e7e5e4;
+      --bg: #fafaf9;
+      --card: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font: 16px/1.55 Georgia, "Times New Roman", serif;
+    }
+    main {
+      max-width: 42rem;
+      margin: 0 auto;
+      padding: 2.5rem 1.25rem 4rem;
+    }
+    h1, h2, h3 { font-family: "Segoe UI", Roboto, sans-serif; line-height: 1.25; }
+    h1 { font-size: 2rem; margin: 0 0 0.4rem; }
+    h2 { font-size: 1.35rem; margin: 2rem 0 0.6rem; }
+    h3 { font-size: 1.05rem; margin: 1.4rem 0 0.4rem; }
+    p, li { margin: 0.45rem 0; }
+    ul { padding-left: 1.2rem; }
+    .meta { color: var(--muted); margin-bottom: 1.5rem; }
+    a { color: #1d4ed8; }
+    header, section, article {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 1.25rem 1.25rem 1.4rem;
+      margin-top: 1rem;
+    }
+    header { margin-top: 0; }
+    nav { font-family: "Segoe UI", Roboto, sans-serif; font-size: 0.95rem; }
+    nav a { margin-right: 1rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Privacy Policy</h1>
+      <p class="meta">APK Qalqon · Android package <code>com.qalqon.qalqon</code><br>Effective date: 8 October 2026</p>
+      <nav>
+        <a href="#en">English</a>
+        <a href="#ru">Русский</a>
+      </nav>
+    </header>
+
+    <article id="en" lang="en">
+      <h2>English</h2>
+      <p>APK Qalqon is an on-device Android security application. It helps the phone owner limit installation of apps from outside Google Play and review installed apps for risky signs. This policy describes what the app processes. The same practices apply in every language of the app.</p>
+
+      <h3>Who operates the app</h3>
+      <p>The app is published as APK Qalqon, package name <code>com.qalqon.qalqon</code>. There is no user account and no separate online service.</p>
+
+      <h3>What the app does</h3>
+      <ul>
+        <li>Lists apps installed on the device and labels them using on-device rules: whether the app came from Google Play, and whether a sideloaded app combines sensitive capabilities such as an accessibility service, SMS access, drawing over other apps, installing or removing apps, device admin, or hidden components.</li>
+        <li>Looks for installer files in shared storage (<code>.apk</code>, <code>.apks</code>, <code>.xapk</code>, <code>.apkm</code>).</li>
+        <li>When you turn the protection on, it can cancel a system install window that is not the Play Store install by pressing Cancel.</li>
+        <li>When you start a force-stop from APK Qalqon, it can press Force stop and the confirmation in the system Settings window.</li>
+        <li>May delete installer files whose names match its local harmful-name rules.</li>
+        <li>Keeps a local history of blocked installs and of uninstalls you start from the app.</li>
+        <li>Shows local notifications so protection can keep running, and asks you to allow unrestricted battery use and the phone maker’s autostart setting.</li>
+      </ul>
+      <p>Checks run on the phone. The app does not send the device’s apps or files to a virus-scanning server.</p>
+
+      <h3>Data processed on the device</h3>
+      <p>The released app has no network permission. It does not transmit data to the developer or to any third party, and it does not include advertising or analytics.</p>
+      <ul>
+        <li><strong>Installed apps.</strong> App name, package name, version, installer (Google Play or another source), requested permissions, whether the package is a system or OEM app, size, and a SHA-256 hash of the signing certificate.</li>
+        <li><strong>Installer files.</strong> File name, path, and size of installer packages in shared storage, so the app can show them, check the name locally, and delete a file it treats as harmful.</li>
+        <li><strong>System windows.</strong> While the accessibility service is on, the app reads the text of the package-installer window and, only after you start a force-stop, the Settings window, in order to find the Cancel or Force stop button. That text is not saved and is not sent anywhere.</li>
+        <li><strong>Settings stored in the app.</strong> Chosen language, whether first-time setup is finished, and whether the battery and autostart steps were visited.</li>
+        <li><strong>Local history.</strong> Up to 80 entries with a name, size, path or package name, whether the install was blocked, and the time.</li>
+      </ul>
+      <p>The app does not read the contents of your photos, videos, messages, contacts, or passwords, and it does not collect an account, phone number, or location.</p>
+
+      <h3>Permissions</h3>
+      <ul>
+        <li><strong>Visibility of all installed apps</strong> (<code>QUERY_ALL_PACKAGES</code>) — to list and check apps on the device.</li>
+        <li><strong>All files access</strong> — to find and, when the local rules match, remove installer files in shared storage such as Downloads. It is not used to browse personal photos, videos, or documents.</li>
+        <li><strong>Accessibility service</strong> — not an aid for people with disabilities. You turn it on yourself. It is used only to press Cancel on a non-Play install window and, when you start that action, Force stop in Settings.</li>
+        <li><strong>Notifications</strong> — local alerts for the protection.</li>
+        <li><strong>Request app deletion</strong> — so you can uninstall an app from APK Qalqon through the system uninstall screen.</li>
+        <li><strong>Unrestricted battery use</strong> — so Android is less likely to stop the protection.</li>
+      </ul>
+
+      <h3>Sharing</h3>
+      <p>Data processed by APK Qalqon stays on the device. It is not sold, rented, or shared with advertisers, analytics companies, or other third parties.</p>
+
+      <h3>How long it is kept</h3>
+      <p>Local settings and history stay in the app’s private storage until you clear the app’s storage or uninstall APK Qalqon. Uninstalling the app deletes that data. Installer files the app has already deleted from shared storage are not restored by uninstalling APK Qalqon.</p>
+
+      <h3>Your choices</h3>
+      <ul>
+        <li>Turn the APK Qalqon accessibility service off in Android settings.</li>
+        <li>Revoke all-files access, notifications, or battery exemption in Android settings.</li>
+        <li>Uninstall APK Qalqon.</li>
+      </ul>
+
+      <h3>Children</h3>
+      <p>APK Qalqon is a security tool for the owner of the device. It is not directed at children, and it does not knowingly collect personal information from children.</p>
+
+      <h3>Changes</h3>
+      <p>If the app starts sending data off the device or the practices above change, this page will be updated and the effective date will change. Continued use of the app after an update means the current page applies.</p>
+
+      <h3>Contact</h3>
+      <p>Questions about this policy: the developer of APK Qalqon, via the Google Play listing for this app, or the public policy repository at <a href="https://github.com/Dprostyle/qalqon-privacy">github.com/Dprostyle/qalqon-privacy</a>.</p>
+    </article>
+
+    <article id="ru" lang="ru">
+      <h2>Русский</h2>
+      <p>APK Qalqon — приложение безопасности Android, которое работает на самом телефоне. Оно помогает владельцу ограничить установку приложений не из Google Play и посмотреть установленные приложения на опасные признаки. Здесь описано, что приложение обрабатывает. Эти правила одинаковы на всех языках приложения.</p>
+
+      <h3>Кто выпускает приложение</h3>
+      <p>Приложение публикуется как APK Qalqon, имя пакета <code>com.qalqon.qalqon</code>. Учётной записи пользователя и отдельного онлайн-сервиса нет.</p>
+
+      <h3>Что делает приложение</h3>
+      <ul>
+        <li>Показывает приложения, установленные на устройстве, и помечает их по правилам на телефоне: установлено ли приложение из Google Play и есть ли у приложения не из Play сочетание чувствительных возможностей — служба специальных возможностей, SMS, поверх других окон, установка или удаление приложений, администратор устройства, скрытые компоненты.</li>
+        <li>Ищет файлы установки в общей памяти (<code>.apk</code>, <code>.apks</code>, <code>.xapk</code>, <code>.apkm</code>).</li>
+        <li>Когда защита включена, может само нажать «Отмена» в системном окне установки, если это не установка из Play.</li>
+        <li>Когда вы сами запускаете принудительную остановку из APK Qalqon, может нажать «Остановить принудительно» и подтверждение в окне настроек Android.</li>
+        <li>Может удалить файлы установки, имена которых совпали с локальными правилами опасных имён.</li>
+        <li>Хранит на телефоне историю заблокированных установок и удалений, которые вы начали из приложения.</li>
+        <li>Показывает локальные уведомления, чтобы защита продолжала работать, и просит разрешить работу без ограничений батареи и автозапуск производителя телефона.</li>
+      </ul>
+      <p>Проверка выполняется на телефоне. Список приложений и файлы не отправляются на сервер антивирусной проверки.</p>
+
+      <h3>Данные, которые обрабатываются на устройстве</h3>
+      <p>В выпускаемой версии нет разрешения на интернет. Приложение не передаёт данные разработчику и третьим лицам. Рекламы и аналитики в нём нет.</p>
+      <ul>
+        <li><strong>Установленные приложения.</strong> Название, имя пакета, версия, источник установки (Google Play или другой), запрошенные разрешения, признак системного или OEM-приложения, размер и хеш SHA-256 сертификата подписи.</li>
+        <li><strong>Файлы установки.</strong> Имя, путь и размер пакетов установки в общей памяти — чтобы показать их, проверить имя локально и удалить файл, который приложение считает опасным.</li>
+        <li><strong>Системные окна.</strong> Пока включена служба специальных возможностей, приложение читает текст окна установщика пакетов и, только после того как вы запустили принудительную остановку, окна настроек — чтобы найти кнопку «Отмена» или «Остановить принудительно». Этот текст не сохраняется и никуда не отправляется.</li>
+        <li><strong>Настройки внутри приложения.</strong> Выбранный язык, пройдена ли первая настройка, открывались ли шаги батареи и автозапуска.</li>
+        <li><strong>Локальная история.</strong> До 80 записей: имя, размер, путь или имя пакета, была ли установка заблокирована, и время.</li>
+      </ul>
+      <p>Приложение не читает содержимое фото, видео, сообщений, контактов и паролей и не собирает учётную запись, номер телефона или местоположение.</p>
+
+      <h3>Разрешения</h3>
+      <ul>
+        <li><strong>Видимость всех установленных приложений</strong> (<code>QUERY_ALL_PACKAGES</code>) — чтобы составить список и проверить приложения на устройстве.</li>
+        <li><strong>Доступ ко всем файлам</strong> — чтобы находить и, при совпадении локальных правил, удалять файлы установки в общей памяти, например в «Загрузках». Не используется для просмотра личных фото, видео и документов.</li>
+        <li><strong>Служба специальных возможностей</strong> — это не средство для людей с ограничениями. Её включаете вы. Она нужна только чтобы нажать «Отмена» в окне установки не из Play и, если это действие начали вы, «Остановить принудительно» в настройках.</li>
+        <li><strong>Уведомления</strong> — локальные сообщения о защите.</li>
+        <li><strong>Запрос удаления приложений</strong> — чтобы удалить приложение из APK Qalqon через системный экран удаления.</li>
+        <li><strong>Работа без ограничения батареи</strong> — чтобы Android реже останавливал защиту.</li>
+      </ul>
+
+      <h3>Передача данных</h3>
+      <p>Данные, которые обрабатывает APK Qalqon, остаются на устройстве. Они не продаются и не передаются рекламным сетям, системам аналитики и другим третьим лицам.</p>
+
+      <h3>Срок хранения</h3>
+      <p>Настройки и история лежат во внутренней памяти приложения, пока вы не очистите его данные или не удалите APK Qalqon. Удаление приложения стирает эти данные. Файлы установки, которые приложение уже удалило из общей памяти, после удаления APK Qalqon сами не возвращаются.</p>
+
+      <h3>Ваш выбор</h3>
+      <ul>
+        <li>Выключить службу специальных возможностей APK Qalqon в настройках Android.</li>
+        <li>Отозвать доступ ко всем файлам, уведомления или исключение из батареи в настройках Android.</li>
+        <li>Удалить APK Qalqon.</li>
+      </ul>
+
+      <h3>Дети</h3>
+      <p>APK Qalqon — инструмент безопасности для владельца устройства. Он не предназначен для детей и сознательно не собирает личные данные детей.</p>
+
+      <h3>Изменения</h3>
+      <p>Если приложение начнёт отправлять данные с устройства или правила выше изменятся, эта страница будет обновлена, и дата вступления в силу тоже. Использование приложения после обновления означает, что действует текущая страница.</p>
+
+      <h3>Контакт</h3>
+      <p>Вопросы по этой политике: разработчик APK Qalqon, через карточку приложения в Google Play или публичный репозиторий политики <a href="https://github.com/Dprostyle/qalqon-privacy">github.com/Dprostyle/qalqon-privacy</a>.</p>
+    </article>
+  </main>
+</body>
+</html>
